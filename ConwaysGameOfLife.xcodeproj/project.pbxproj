@@ -14,6 +14,9 @@
 		04DC97E61EAD5008004B8900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC97E41EAD5008004B8900 /* LaunchScreen.storyboard */; };
 		04DC97F11EAD5008004B8900 /* ConwaysGameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC97F01EAD5008004B8900 /* ConwaysGameOfLifeTests.swift */; };
 		04DC97FC1EAD5008004B8900 /* ConwaysGameOfLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC97FB1EAD5008004B8900 /* ConwaysGameOfLifeUITests.swift */; };
+		3866C5AB0939682BF368B2C8 /* Pods_ConwaysGameOfLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8AB16EDD3F719A8A5D5048 /* Pods_ConwaysGameOfLife.framework */; };
+		57370DC438D24830E28D6162 /* Pods_ConwaysGameOfLifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A05CE123917511A8350DC23 /* Pods_ConwaysGameOfLifeTests.framework */; };
+		8BBD2FA4E6067A7B1AFF6F3D /* Pods_ConwaysGameOfLifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8AF105574288011DA59781 /* Pods_ConwaysGameOfLifeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		04DC97F71EAD5008004B8900 /* ConwaysGameOfLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConwaysGameOfLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DC97FB1EAD5008004B8900 /* ConwaysGameOfLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConwaysGameOfLifeUITests.swift; sourceTree = "<group>"; };
 		04DC97FD1EAD5008004B8900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8AB16EDD3F719A8A5D5048 /* Pods_ConwaysGameOfLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConwaysGameOfLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5583B4B5767098B6C9E728C0 /* Pods-ConwaysGameOfLifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConwaysGameOfLifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConwaysGameOfLifeUITests/Pods-ConwaysGameOfLifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7093A26905863AA3EFE7A577 /* Pods-ConwaysGameOfLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConwaysGameOfLifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConwaysGameOfLifeTests/Pods-ConwaysGameOfLifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A05CE123917511A8350DC23 /* Pods_ConwaysGameOfLifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConwaysGameOfLifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B05D604F2554554B3E5ABB4 /* Pods-ConwaysGameOfLifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConwaysGameOfLifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConwaysGameOfLifeUITests/Pods-ConwaysGameOfLifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B8AF105574288011DA59781 /* Pods_ConwaysGameOfLifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConwaysGameOfLifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27763730C09BC1A583C0051 /* Pods-ConwaysGameOfLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConwaysGameOfLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConwaysGameOfLife/Pods-ConwaysGameOfLife.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A600AB818821AB71D3E3B8 /* Pods-ConwaysGameOfLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConwaysGameOfLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConwaysGameOfLife/Pods-ConwaysGameOfLife.release.xcconfig"; sourceTree = "<group>"; };
+		DF7D64B8F98DCF8C08062C97 /* Pods-ConwaysGameOfLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConwaysGameOfLifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConwaysGameOfLifeTests/Pods-ConwaysGameOfLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3866C5AB0939682BF368B2C8 /* Pods_ConwaysGameOfLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57370DC438D24830E28D6162 /* Pods_ConwaysGameOfLifeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBD2FA4E6067A7B1AFF6F3D /* Pods_ConwaysGameOfLifeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				04DC97EF1EAD5008004B8900 /* ConwaysGameOfLifeTests */,
 				04DC97FA1EAD5008004B8900 /* ConwaysGameOfLifeUITests */,
 				04DC97D91EAD5008004B8900 /* Products */,
+				92EAAD0005A566368C33B2DE /* Pods */,
+				772400F9572AAC68401F709E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +158,29 @@
 			name = Storyboard;
 			sourceTree = "<group>";
 		};
+		772400F9572AAC68401F709E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8AB16EDD3F719A8A5D5048 /* Pods_ConwaysGameOfLife.framework */,
+				7A05CE123917511A8350DC23 /* Pods_ConwaysGameOfLifeTests.framework */,
+				8B8AF105574288011DA59781 /* Pods_ConwaysGameOfLifeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92EAAD0005A566368C33B2DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B27763730C09BC1A583C0051 /* Pods-ConwaysGameOfLife.debug.xcconfig */,
+				B2A600AB818821AB71D3E3B8 /* Pods-ConwaysGameOfLife.release.xcconfig */,
+				DF7D64B8F98DCF8C08062C97 /* Pods-ConwaysGameOfLifeTests.debug.xcconfig */,
+				7093A26905863AA3EFE7A577 /* Pods-ConwaysGameOfLifeTests.release.xcconfig */,
+				7B05D604F2554554B3E5ABB4 /* Pods-ConwaysGameOfLifeUITests.debug.xcconfig */,
+				5583B4B5767098B6C9E728C0 /* Pods-ConwaysGameOfLifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04DC98001EAD5008004B8900 /* Build configuration list for PBXNativeTarget "ConwaysGameOfLife" */;
 			buildPhases = (
+				EE7E10D6F39C29D8195E2A35 /* [CP] Check Pods Manifest.lock */,
 				04DC97D41EAD5008004B8900 /* Sources */,
 				04DC97D51EAD5008004B8900 /* Frameworks */,
 				04DC97D61EAD5008004B8900 /* Resources */,
+				99D9D7507B44D8A5F05A59FC /* [CP] Embed Pods Frameworks */,
+				D568C4D07B5A8FBA73D66A6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04DC98031EAD5008004B8900 /* Build configuration list for PBXNativeTarget "ConwaysGameOfLifeTests" */;
 			buildPhases = (
+				8E01B1A55BE5A99A89CA41D2 /* [CP] Check Pods Manifest.lock */,
 				04DC97E81EAD5008004B8900 /* Sources */,
 				04DC97E91EAD5008004B8900 /* Frameworks */,
 				04DC97EA1EAD5008004B8900 /* Resources */,
+				5583BAE6135CA77BE62C4663 /* [CP] Embed Pods Frameworks */,
+				660650F04A0237CFC7937E48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04DC98061EAD5008004B8900 /* Build configuration list for PBXNativeTarget "ConwaysGameOfLifeUITests" */;
 			buildPhases = (
+				66E3EDEB1F263D2FAA2FCC7A /* [CP] Check Pods Manifest.lock */,
 				04DC97F31EAD5008004B8900 /* Sources */,
 				04DC97F41EAD5008004B8900 /* Frameworks */,
 				04DC97F51EAD5008004B8900 /* Resources */,
+				89763353933C385A01D83CD5 /* [CP] Embed Pods Frameworks */,
+				191C357D86822917C99EF435 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +318,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		191C357D86822917C99EF435 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConwaysGameOfLifeUITests/Pods-ConwaysGameOfLifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5583BAE6135CA77BE62C4663 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConwaysGameOfLifeTests/Pods-ConwaysGameOfLifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660650F04A0237CFC7937E48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConwaysGameOfLifeTests/Pods-ConwaysGameOfLifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E3EDEB1F263D2FAA2FCC7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89763353933C385A01D83CD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConwaysGameOfLifeUITests/Pods-ConwaysGameOfLifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E01B1A55BE5A99A89CA41D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99D9D7507B44D8A5F05A59FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConwaysGameOfLife/Pods-ConwaysGameOfLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D568C4D07B5A8FBA73D66A6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConwaysGameOfLife/Pods-ConwaysGameOfLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7E10D6F39C29D8195E2A35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04DC97D41EAD5008004B8900 /* Sources */ = {
@@ -426,6 +613,7 @@
 		};
 		04DC98011EAD5008004B8900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27763730C09BC1A583C0051 /* Pods-ConwaysGameOfLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ConwaysGameOfLife/Info.plist;
@@ -438,6 +626,7 @@
 		};
 		04DC98021EAD5008004B8900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A600AB818821AB71D3E3B8 /* Pods-ConwaysGameOfLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ConwaysGameOfLife/Info.plist;
@@ -450,6 +639,7 @@
 		};
 		04DC98041EAD5008004B8900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7D64B8F98DCF8C08062C97 /* Pods-ConwaysGameOfLifeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +654,7 @@
 		};
 		04DC98051EAD5008004B8900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7093A26905863AA3EFE7A577 /* Pods-ConwaysGameOfLifeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +669,7 @@
 		};
 		04DC98071EAD5008004B8900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B05D604F2554554B3E5ABB4 /* Pods-ConwaysGameOfLifeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ConwaysGameOfLifeUITests/Info.plist;
@@ -491,6 +683,7 @@
 		};
 		04DC98081EAD5008004B8900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5583B4B5767098B6C9E728C0 /* Pods-ConwaysGameOfLifeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ConwaysGameOfLifeUITests/Info.plist;
