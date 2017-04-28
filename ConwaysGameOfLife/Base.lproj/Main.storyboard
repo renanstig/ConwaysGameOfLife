@@ -145,6 +145,13 @@
                             <constraint firstItem="Gl1-3x-cRB" firstAttribute="top" secondItem="vmx-IL-ZMV" secondAttribute="bottom" id="zv4-Sq-eIf"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="NvO-g3-2At">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="3tn-cD-J2u">
+                            <connections>
+                                <action selector="shareButtonWithSender:" destination="ey7-ME-fbR" id="iC3-AM-hfI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="scrollView" destination="4RR-pb-Yre" id="Rxc-vF-08n"/>
                         <outlet property="start" destination="dBA-Xp-mzl" id="ieA-Jz-iU9"/>

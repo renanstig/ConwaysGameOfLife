@@ -55,9 +55,31 @@ class ConwaysViewController: UIViewController {
 
     
     @IBAction func shareButton(sender: AnyObject) {
+        var objectsToShare = [AnyObject]()
         
+        
+        guard let image = captureScreen() else {
+            let alert = UIAlertController(title: "Error", message: "There was an error while taking the screenshot", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
+        objectsToShare.append(image)
+        let activityViewController = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+            activityViewController.popoverPresentationController?.sourceView = self.view
+        present(activityViewController, animated: true, completion: nil)
+    }
+    
+    
+    func captureScreen() -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, UIScreen.main.scale)
+        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
     }
 }
+
 
 extension ConwaysViewController: UIScrollViewDelegate {
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
