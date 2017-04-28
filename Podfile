@@ -6,11 +6,14 @@ target 'ConwaysGameOfLife' do
   use_frameworks!
 
   # Pods for ConwaysGameOfLife
-
-  target 'ConwaysGameOfLifeTests' do
-    inherit! :search_paths
       pod 'RxSwift',    '~> 3.0'
       pod 'RxCocoa',    '~> 3.0'
+      
+  target 'ConwaysGameOfLifeTests' do
+    inherit! :search_paths
+
+      pod 'RxBlocking', '~> 3.0'
+      pod 'RxTest',     '~> 3.0'
   end
 
   target 'ConwaysGameOfLifeUITests' do
