@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045CE81F1EAEE1EF00D353AB /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CE81E1EAEE1EF00D353AB /* InitialViewController.swift */; };
+		04A923C61EB2D202000491B6 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923C51EB2D202000491B6 /* GridView.swift */; };
+		04A923C81EB2D354000491B6 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923C71EB2D354000491B6 /* GridCell.swift */; };
+		04A923C91EB2DFCC000491B6 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923C51EB2D202000491B6 /* GridView.swift */; };
+		04A923CA1EB2DFCD000491B6 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923C51EB2D202000491B6 /* GridView.swift */; };
+		04A923CB1EB2DFD0000491B6 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923C71EB2D354000491B6 /* GridCell.swift */; };
+		04A923CC1EB2DFD1000491B6 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923C71EB2D354000491B6 /* GridCell.swift */; };
+		04A923CE1EB2E927000491B6 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923CD1EB2E927000491B6 /* UIView+Constraints.swift */; };
+		04A923CF1EB2EA1C000491B6 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923CD1EB2E927000491B6 /* UIView+Constraints.swift */; };
+		04A923D01EB2EA1D000491B6 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A923CD1EB2E927000491B6 /* UIView+Constraints.swift */; };
+		04B6B2BE1EB185A300C49AF1 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6B2BD1EB185A300C49AF1 /* String+Validation.swift */; };
+		04B6B2C71EB1902200C49AF1 /* ConwaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6B2C61EB1902200C49AF1 /* ConwaysViewController.swift */; };
+		04B6B2C81EB1902200C49AF1 /* ConwaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6B2C61EB1902200C49AF1 /* ConwaysViewController.swift */; };
+		04B6B2C91EB1902200C49AF1 /* ConwaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6B2C61EB1902200C49AF1 /* ConwaysViewController.swift */; };
 		04DC97DC1EAD5008004B8900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC97DB1EAD5008004B8900 /* AppDelegate.swift */; };
-		04DC97DE1EAD5008004B8900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC97DD1EAD5008004B8900 /* ViewController.swift */; };
 		04DC97E11EAD5008004B8900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC97DF1EAD5008004B8900 /* Main.storyboard */; };
 		04DC97E31EAD5008004B8900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DC97E21EAD5008004B8900 /* Assets.xcassets */; };
 		04DC97E61EAD5008004B8900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC97E41EAD5008004B8900 /* LaunchScreen.storyboard */; };
@@ -37,9 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045CE81E1EAEE1EF00D353AB /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		04A923C51EB2D202000491B6 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		04A923C71EB2D354000491B6 /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		04A923CD1EB2E927000491B6 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		04B6B2BD1EB185A300C49AF1 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		04B6B2C61EB1902200C49AF1 /* ConwaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConwaysViewController.swift; sourceTree = "<group>"; };
 		04DC97D81EAD5008004B8900 /* ConwaysGameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConwaysGameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DC97DB1EAD5008004B8900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04DC97DD1EAD5008004B8900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04DC97E01EAD5008004B8900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04DC97E21EAD5008004B8900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DC97E51EAD5008004B8900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +107,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045CE8201EAEE55800D353AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04B6B2BD1EB185A300C49AF1 /* String+Validation.swift */,
+				04A923CD1EB2E927000491B6 /* UIView+Constraints.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		0471A61F1EB2CB360026E1E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04A923C41EB2D1F0000491B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A923C51EB2D202000491B6 /* GridView.swift */,
+				04A923C71EB2D354000491B6 /* GridCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		04DC97CF1EAD5008004B8900 = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +157,10 @@
 		04DC97DA1EAD5008004B8900 /* ConwaysGameOfLife */ = {
 			isa = PBXGroup;
 			children = (
-				04DC97DD1EAD5008004B8900 /* ViewController.swift */,
+				04A923C41EB2D1F0000491B6 /* View */,
+				0471A61F1EB2CB360026E1E1 /* Model */,
+				045CE8201EAEE55800D353AB /* Extensions */,
+				04DC980B1EAD7DEB004B8900 /* ViewController */,
 				04DC980A1EAD5026004B8900 /* Storyboard */,
 				04DC98091EAD5010004B8900 /* Support Files */,
 			);
@@ -156,6 +202,15 @@
 				04DC97E41EAD5008004B8900 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		04DC980B1EAD7DEB004B8900 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				045CE81E1EAEE1EF00D353AB /* InitialViewController.swift */,
+				04B6B2C61EB1902200C49AF1 /* ConwaysViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		772400F9572AAC68401F709E /* Frameworks */ = {
@@ -462,8 +517,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DC97DE1EAD5008004B8900 /* ViewController.swift in Sources */,
+				04A923CE1EB2E927000491B6 /* UIView+Constraints.swift in Sources */,
+				04B6B2BE1EB185A300C49AF1 /* String+Validation.swift in Sources */,
+				04B6B2C71EB1902200C49AF1 /* ConwaysViewController.swift in Sources */,
+				045CE81F1EAEE1EF00D353AB /* InitialViewController.swift in Sources */,
+				04A923C61EB2D202000491B6 /* GridView.swift in Sources */,
 				04DC97DC1EAD5008004B8900 /* AppDelegate.swift in Sources */,
+				04A923C81EB2D354000491B6 /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +532,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DC97F11EAD5008004B8900 /* ConwaysGameOfLifeTests.swift in Sources */,
+				04A923C91EB2DFCC000491B6 /* GridView.swift in Sources */,
+				04A923CF1EB2EA1C000491B6 /* UIView+Constraints.swift in Sources */,
+				04B6B2C81EB1902200C49AF1 /* ConwaysViewController.swift in Sources */,
+				04A923CB1EB2DFD0000491B6 /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +544,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DC97FC1EAD5008004B8900 /* ConwaysGameOfLifeUITests.swift in Sources */,
+				04A923CA1EB2DFCD000491B6 /* GridView.swift in Sources */,
+				04A923D01EB2EA1D000491B6 /* UIView+Constraints.swift in Sources */,
+				04B6B2C91EB1902200C49AF1 /* ConwaysViewController.swift in Sources */,
+				04A923CC1EB2DFD1000491B6 /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +782,7 @@
 				04DC98021EAD5008004B8900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DC98031EAD5008004B8900 /* Build configuration list for PBXNativeTarget "ConwaysGameOfLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -722,6 +791,7 @@
 				04DC98051EAD5008004B8900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DC98061EAD5008004B8900 /* Build configuration list for PBXNativeTarget "ConwaysGameOfLifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -730,6 +800,7 @@
 				04DC98081EAD5008004B8900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
